@@ -1,0 +1,39 @@
+{
+  "name": "typescript-template",
+  "description": "A short project description",
+  "version": "0.0,1",
+  "private": false,
+  "license": "UNLICENSED",
+  "type": "module",
+  "author": "carlba",
+  "homepage": "https://github.com/carlba/typescript-template",
+  "bugs": {
+    "url": "https://github.com/carlba/typescript-template"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pocketsolutions/typescript-template"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "dist/index.js",
+    "start:dev": "tsx watch src/index.ts",
+    "lint": "eslint **/*.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@pocketlaw/eslint-config-backend": "^2.1.5",
+    "@pocketlaw/prettier-config": "^1.1.1",
+    "@pocketlaw/release-config": "^4.0.7",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^18.17.12",
+    "eslint": "^8.48.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  }
+}
