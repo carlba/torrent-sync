@@ -18,6 +18,7 @@
     "build": "tsc",
     "start": "dist/index.js",
     "start:dev": "tsx watch src/index.ts",
+    "start:test:dev": "tsx watch src/glob-test.ts",
     "lint": "eslint **/*.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
@@ -30,10 +31,20 @@
     "@pocketlaw/release-config": "^4.0.7",
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^18.17.12",
+    "@types/pino": "^7.0.5",
     "eslint": "^8.48.0",
     "husky": "^8.0.3",
     "prettier": "^3.1.1",
     "tsx": "^4.6.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@root/walk": "^1.1.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "fast-glob": "^3.3.2",
+    "pino": "^8.17.1",
+    "transmission-promise": "^1.1.5",
+    "yaml": "^2.3.4"
   }
 }
