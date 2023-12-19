@@ -1,7 +1,7 @@
 {
   "name": "typescript-template",
   "description": "A short project description",
-  "version": "0.0,1",
+  "version": "0.0.1",
   "private": false,
   "license": "UNLICENSED",
   "type": "module",
